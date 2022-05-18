@@ -39,10 +39,10 @@ return new class extends Migration
         });
         DB::table('users')->insert([
             [
-                'name' => 'Victor Antonio Candela Buendia',
-                'email' => 'victorcandela@gmail.com',
+                'name' => 'Xorcom',
+                'email' => 'vcandela@xorcom.com',
                 'company_id' => '5000',
-                'password' => Hash::make('10637052'),
+                'password' => Hash::make('xorcom2022'),
                 'created_at'=> Carbon::now()->format('Y-m-d H:i:s'),
                 'updated_at'=> Carbon::now()->format('Y-m-d H:i:s')
             ],
