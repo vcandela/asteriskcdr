@@ -9,7 +9,7 @@
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
-                    <h5>Reporte de Llamadas por Agente</h5>
+                    <h5>Reporte de Llamadas</h5>
                     <hr>
                     <form class="form-horizontal" data-parsley-validate role="form" method="POST" action="{{route('report.cdr_search_details')}}" enctype="multipart/form-data">
                         {{ csrf_field() }}
