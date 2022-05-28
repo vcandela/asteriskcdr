@@ -50,7 +50,9 @@
                                     <td class=" ">{{ $cdr->destination }}</td>
                                     <td class=" ">{{ $cdr->duration }}</td>
                                     <td class=" ">{{ $cdr->disposition }}</td>
-                                    <td class=" "></td>
+                                    <td class=" ">
+                                        <button class="btn" > Descargar</button>
+                                    </td>
                                 </tr>
                             @endforeach
                             @endif
